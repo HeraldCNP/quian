@@ -12,12 +12,13 @@
 	
 	<!-- Import CSS -->
 	<link rel="stylesheet" href="css/base.css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
 		
 	<!-- Hero Causel CSS -->
 	<link rel="stylesheet" href="css/jquery.heroCarousel.css">
-	<link href="https://file.myfontastic.com/CX8sFX5gHmHLfqFMmhUTM5/icons.css" rel="stylesheet">
+	<link href="https://file.myfontastic.com/R3eFVjRP7f4HjV3RVktSZG/icons.css" rel="stylesheet">
 	<link rel="shortcut icon" href="{{ asset('/img/favicon.ico') }}">
-
+		
 	<!--[if lt IE 9]>
 		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
@@ -63,6 +64,9 @@
 	<script src="js/jflickrfeed.js"></script><!-- Flickr Feed -->
 	<script src="js/jflickrfeed-setup.js"></script><!-- Flickr Feed Setup-->
 	<script src="js/settings.js"></script> <!-- Settings for JS Plugins -->
+	
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bs5-lightbox@1.8.2/dist/index.bundle.min.js"></script>
 		
 </body>
 

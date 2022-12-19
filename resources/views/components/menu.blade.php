@@ -2,7 +2,7 @@
     <header>
         <div class="container">
             <div class="row">
-                <div class="span5">
+                <div class="col-md-5">
                     <div id="logo">
 
                         <a href="index.html">
@@ -14,7 +14,7 @@
                         <p>Films</p>
                     </div>
                 </div>
-                <div class="span7">
+                <div class="col-md-7">
                     <!-- Start Navigation -->
                     <nav>
                         <ul id="navigation" class="pull-right hidden-phone">
@@ -38,7 +38,7 @@
                             <li>
                                 <a href="contact.html">Contacto</a>
                             </li>
-                            {{-- <li class="last submenu">
+                            <!-- <li class="last submenu">
                                 <a href="shortcodes.html">Features</a>
                                 <ul class="dropmenu-active">
                                     <li><a href="shortcodes.html">Shortcodes</a></li>
@@ -48,7 +48,7 @@
                                     <li><a href="responsive.html">Responsive</a></li>
                                     <li><a href="cute-slider.html">Cute Slider</a></li>
                                 </ul>
-                            </li> --}}
+                            </li> -->
                         </ul>
                     </nav>
                     <!-- End Navigation -->
