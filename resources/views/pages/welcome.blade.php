@@ -1,6 +1,6 @@
 <x-main>
 
-
+    <x-banner></x-banner>
 
 
     <!-- Start Intro Block -->

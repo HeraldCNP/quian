@@ -5,7 +5,7 @@
                 <div class="col-md-5">
                     <div id="logo">
 
-                        <a href="index.html">
+                        <a href="/">
                             <figure>
 								<img src="{{ asset('/img/logo.png') }}"
 									 alt="Elephant at sunset" width="200px">
@@ -19,24 +19,24 @@
                     <nav>
                         <ul id="navigation" class="pull-right hidden-phone">
                             <li class="submenu">
-                                <a class="active" href="index.html">Inicio</a>
+                                <a class="{{ request()->routeIs('inicio') ? 'active' : '' }}" href="/">Inicio</a>
                                 {{-- <ul class="dropmenu-active">
                                     <li><a href="index.html" class="drop-selected">Hero Carousel</a></li>
                                     <li><a href="index-cute.html">3D Cute Slider</a></li>
                                 </ul> --}}
                             </li>
                             <li>
-                                <a href="blog.html">¿Quienes somos?</a>
+                                <a class="{{ request()->routeIs('acerca') ? 'active' : '' }}" href="/about">¿Quienes somos?</a>
                             </li>
                             <li>
-                                <a href="blog.html">Servicios</a>
+                                <a class="{{ request()->routeIs('servicios') ? 'active' : '' }}" href="blog.html">Servicios</a>
                             </li>
                             <li>
-                                <a href="portfolio.html">Portafolio</a>
+                                <a class="{{ request()->routeIs('portafolio') ? 'active' : '' }}" href="portfolio.html">Portafolio</a>
                             </li>
                             
                             <li>
-                                <a href="contact.html">Contacto</a>
+                                <a class="{{ request()->routeIs('contacto') ? 'active' : '' }}" href="contact.html">Contacto</a>
                             </li>
                             <!-- <li class="last submenu">
                                 <a href="shortcodes.html">Features</a>

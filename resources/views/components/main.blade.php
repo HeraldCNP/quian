@@ -27,7 +27,7 @@
 <body> 
 
     <x-menu></x-menu>
-    <x-banner></x-banner>
+    
 
     {{ $slot }}
 
