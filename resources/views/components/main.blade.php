@@ -31,7 +31,6 @@
 
     {{ $slot }}
 
-    <x-clients></x-clients>
     <x-footer></x-footer>
 	
 	<!-- jQuery -->	

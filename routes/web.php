@@ -19,6 +19,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::view('/', 'pages.welcome')->name('inicio');
 Route::view('/about', 'pages.about')->name('acerca');
+Route::view('/services', 'pages.services')->name('servicios');
 
 
 

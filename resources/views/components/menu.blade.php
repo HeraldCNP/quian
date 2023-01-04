@@ -29,7 +29,7 @@
                                 <a class="{{ request()->routeIs('acerca') ? 'active' : '' }}" href="/about">¿Quienes somos?</a>
                             </li>
                             <li>
-                                <a class="{{ request()->routeIs('servicios') ? 'active' : '' }}" href="blog.html">Servicios</a>
+                                <a class="{{ request()->routeIs('servicios') ? 'active' : '' }}" href="/services">Servicios</a>
                             </li>
                             <li>
                                 <a class="{{ request()->routeIs('portafolio') ? 'active' : '' }}" href="portfolio.html">Portafolio</a>

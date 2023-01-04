@@ -28,7 +28,8 @@ body {
 .regular {
     color: white;
 }
-.bold{
+
+.bold {
     color: white;
 }
 
@@ -36,18 +37,24 @@ body {
     color: white;
 }
 
+.sub {
+    font-size: 24px;
+    text-align: center;
+}
+
 .address1 {
     color: #ccced0
 }
 
 a {
-    color: red;
+    color: #fc1d42;
 }
 
-.red{
-    color: red;
+.red {
+    color: #fc1d42;
 }
-.red:hover{
+
+.red:hover {
     color: white;
 }
 
@@ -55,6 +62,31 @@ a {
     width: 100%;
 }
 
-img{
+img {
     color: #fc1d42;
 }
+
+.circulo {
+    width: 13rem;
+    height: 13rem;
+    border-radius: 50%;
+    background: #282828;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0px auto;
+    padding: 3%
+}
+
+.circulo .rojito {
+    color: #fc1d42;
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+.circulo .blanquito {
+    color: #ffffff;
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+

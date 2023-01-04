@@ -5,14 +5,14 @@
 
     <!-- Start Intro Block -->
     <section class="intro container">
-        <div class="row">
+        <div class="row my-5">
             <div class="col-md-12">
-                <p class="regular">En <a href="#" class="red">QUIAN</a> trabajamos con enfoque personal y eficaz
+                <p class="regular">En <span class="red">QUIAN</span> trabajamos con enfoque personal y eficaz
                     en cada proyecto. <br>
-                    ¡La imagen de nuestros clientes es lo mas importante!</p>
+                   <span class="red">¡</span>La imagen de nuestros clientes es lo mas importante<span class="red">!</span></p>
             </div>
-            <hr class="line">
         </div>
+        <hr class="line">
     </section>
     <!-- End Intro Block -->
 
@@ -75,8 +75,8 @@
     </section>
     <!-- End Services Icons -->
 
-
-
+    <x-gallery></x-gallery>
+    <x-clients></x-clients>
 
 
 </x-main>
