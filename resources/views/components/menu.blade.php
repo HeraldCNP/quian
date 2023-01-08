@@ -29,14 +29,14 @@
                                 <a class="{{ request()->routeIs('acerca') ? 'active' : '' }}" href="/about">¿Quienes somos?</a>
                             </li>
                             <li>
-                                <a class="{{ request()->routeIs('servicios') ? 'active' : '' }}" href="/services">Servicios</a>
+                                <a class="{{ request()->routeIs('servicios') ? 'active' : '' }}" href="/servicios">Servicios</a>
                             </li>
                             <li>
                                 <a class="{{ request()->routeIs('portafolio') ? 'active' : '' }}" href="portfolio.html">Portafolio</a>
                             </li>
                             
                             <li>
-                                <a class="{{ request()->routeIs('contacto') ? 'active' : '' }}" href="contact.html">Contacto</a>
+                                <a class="{{ request()->routeIs('contacto') ? 'active' : '' }}" href="/contacto">Contacto</a>
                             </li>
                             <!-- <li class="last submenu">
                                 <a href="shortcodes.html">Features</a>
