@@ -8,10 +8,10 @@
                         <a href="/">
                             <figure>
 								<img src="{{ asset('/img/logo.png') }}"
-									 alt="Elephant at sunset" width="200px">
+									 alt="Quian Films Logo" width="200px">
 							</figure>
 						</a>
-                        <p>Films</p>
+                        <p class="regular" style="font-size: 1.6em">Films</p>
                     </div>
                 </div>
                 <div class="col-md-7">
@@ -31,9 +31,9 @@
                             <li>
                                 <a class="{{ request()->routeIs('servicios') ? 'active' : '' }}" href="/servicios">Servicios</a>
                             </li>
-                            <li>
+                            {{-- <li>
                                 <a class="{{ request()->routeIs('portafolio') ? 'active' : '' }}" href="portfolio.html">Portafolio</a>
-                            </li>
+                            </li> --}}
                             
                             <li>
                                 <a class="{{ request()->routeIs('contacto') ? 'active' : '' }}" href="/contacto">Contacto</a>

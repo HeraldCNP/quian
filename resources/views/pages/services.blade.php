@@ -87,7 +87,7 @@
                             alt="">
                     </div>
                     <div>
-                        <h5>Fashion Films</h5>
+                        <h5>Diseño Web</h5>
                         <p class="regular">Making Of, micro-cortos con estilo cinematográfico, secuencias
                             intimistas o lo que sea necesario para promocionar marcas de
                             ropa o complementos de forma sugerente y rompedora.</p>

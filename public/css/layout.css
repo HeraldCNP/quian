@@ -978,9 +978,10 @@ footer nav li a.active {
 }
 
 .profile-wrp .profile-desc {
-	font-size: 12px;
+	font-size: 16px;
 	padding: 0 20px 33px 20px;
 	line-height: 1.5;
+	min-height: 270px;
 }
 
 .profile-wrp .social-icons {

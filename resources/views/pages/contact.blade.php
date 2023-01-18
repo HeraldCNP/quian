@@ -11,8 +11,8 @@
 
         </div>
         <div class="row">
-            <h2 class="bold text-center my-2" style="color: #f5c11e">afdsfsd@dfsdfsd.com</h2>
-            <h2 class="bold text-center my-3">+591 73867629</h2>
+            <h2 class="bold text-center my-2" style="color: #f5c11e"><a style="text-decoration: none" href="mailto:quianfilms@gmail.com" class="red">quianfilms@gmail.com</a></h2>
+            <h2 class="bold text-center my-3"><a href="tel:+591-73867629" class="red" style="text-decoration: none"> 591-73867629  </a></h2>
             <h4 class="bold text-center my-4" style="color: #4e5257">POTOSÍ, BOLIVIA</h4>
         </div>
     </section>
@@ -37,16 +37,12 @@
 				</div>
                 <form action="">
                     <div class="row">
-                        <div class="col-md-4">
-                            <label>Nombre</label>
+                        <div class="col-md-4 text-center">
                             <input type="text" name="name" id="nombre" placeholder="Nombre" required>
-                            <label>E-mail</label>
                             <input type="email" name="email" id="email" placeholder="E-mail" required>
-                            <label>Subject</label>
                             <input type="text" name="subject" id="asunto" placeholder="Asunto" required>
                         </div>
                         <div class="col-md-8">
-							<label>Mensaje</label>
 							<textarea name="" id="mensaje" cols="30" rows="10" placeholder="Mensaje" required></textarea>
 							<button id="submit" class="btn btn-danger"><span><i class="icon-paper-plane"
 								style="font-size: 1rem"></i>Enviar</button>
